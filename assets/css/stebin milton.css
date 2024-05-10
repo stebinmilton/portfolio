@@ -13,7 +13,520 @@
 * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 */
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,200i,300,300i,400,400i,600,600i,700,700i,900,900i&display=swap");
+.lan {
+  color: black;
+}
+.html {
+  padding: 4px;
+  border-radius: 30px;
+  background: rgba(176, 174, 174, 0.25);
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25),
+    0 1px rgba(255, 255, 255, 0.08);
+}
 
+.html-bar {
+  height: 9px;
+  border-radius: 30px;
+  background-image: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0.3),
+    rgba(255, 255, 255, 0.05)
+  );
+  transition: 0.4s linear;
+  transition-property: width, background-color;
+}
+
+.html-bar {
+  width: 90%;
+  background-color: #F85C70 ;
+  animation: htmlAnimation 6s;
+}
+
+@keyframes htmlAnimation {
+  0% {
+    width: 0%;
+    background-color: #F85C70;
+  }
+  100% {
+    width: 90%;
+    background-color: #ef476f;
+  }
+}
+
+.boostrap {
+  padding: 4px;
+  border-radius: 30px;
+  background: rgba(176, 174, 174, 0.25);
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25),
+    0 1px rgba(255, 255, 255, 0.08);
+}
+
+.boostrap-bar {
+  height: 9px;
+  border-radius: 30px;
+  background-image: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0.3),
+    rgba(255, 255, 255, 0.05)
+  );
+  transition: 0.4s linear;
+  transition-property: width, background-color;
+}
+
+.boostrap-bar {
+  width: 80%;
+  background-color: #F85C70 ;
+  animation: boostrapAnimation 6s;
+}
+
+@keyframes boostrapAnimation {
+  0% {
+    width: 0%;
+    background-color: #F85C70;
+  }
+   100% {
+    width: 80%;
+    background-color: #ef476f;
+  }
+}  
+
+.mediaQuery {
+  padding: 4px;
+  border-radius: 30px;
+  background: rgba(176, 174, 174, 0.25);
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25),
+    0 1px rgba(255, 255, 255, 0.08);
+}
+
+.media-bar {
+  height: 9px;
+  border-radius: 30px;
+  background-image: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0.3),
+    rgba(255, 255, 255, 0.05)
+  );
+  transition: 0.4s linear;
+  transition-property: width, background-color;
+}
+
+.media-bar {
+  width: 90%;
+  background-color: #F85C70 ;
+  animation: mediaQueryAnimation 6s;
+}
+
+@keyframes mediaQueryAnimation {
+  0% {
+    width: 0%;
+    background-color: #F85C70;
+  }
+  100% {
+    width: 90%;
+    background-color: #ef476f;
+  }
+}
+
+.python {
+  padding: 4px;
+  border-radius: 30px;
+  background: rgba(176, 174, 174, 0.25);
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25),
+    0 1px rgba(255, 255, 255, 0.08);
+}
+
+.python-bar {
+  height: 9px;
+  border-radius: 30px;
+  background-image: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0.3),
+    rgba(255, 255, 255, 0.05)
+  );
+  transition: 0.4s linear;
+  transition-property: width, background-color;
+}
+
+.python-bar {
+  width: 70%;
+  background-color: #F85C70 ;
+  animation: pythonAnimation 6s;
+}
+
+@keyframes pythonAnimation {
+  0% {
+    width: 0%;
+    background-color: #F85C70;
+  }
+  100% {
+    width: 70%;
+    background-color: #ef476f;
+  }
+}
+
+.js {
+  padding: 4px;
+  border-radius: 30px;
+  background: rgba(176, 174, 174, 0.25);
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25),
+    0 1px rgba(255, 255, 255, 0.08);
+}
+
+.js-bar {
+  height: 9px;
+  border-radius: 30px;
+  background-image: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0.3),
+    rgba(255, 255, 255, 0.05)
+  );
+  transition: 0.4s linear;
+  transition-property: width, background-color;
+}
+
+.js-bar {
+  width: 90%;
+  background-color: #F85C70 ;
+  animation: jsAnimation 6s;
+}
+
+@keyframes jsAnimation {
+  0% {
+    width: 0%;
+    background-color: #F85C70;
+  }
+  100% {
+    width: 90%;
+    background-color: #ef476f;
+  }
+}
+
+.react {
+  padding: 4px;
+  border-radius: 30px;
+  background: rgba(176, 174, 174, 0.25);
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25),
+    0 1px rgba(255, 255, 255, 0.08);
+}
+
+.react-bar {
+  height: 9px;
+  border-radius: 30px;
+  background-image: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0.3),
+    rgba(255, 255, 255, 0.05)
+  );
+  transition: 0.4s linear;
+  transition-property: width, background-color;
+}
+
+.react-bar {
+  width: 70%;
+  background-color: #F85C70 ;
+  animation: reactAnimation 6s;
+}
+
+@keyframes reactAnimation {
+  0% {
+    width: 0%;
+    background-color: #F85C70;
+  }
+  100% {
+    width: 70%;
+    background-color: #ef476f;
+  }
+}
+
+.node {
+  padding: 4px;
+  border-radius: 30px;
+  background: rgba(176, 174, 174, 0.25);
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25),
+    0 1px rgba(255, 255, 255, 0.08);
+}
+
+.node-bar {
+  height: 9px;
+  border-radius: 30px;
+  background-image: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0.3),
+    rgba(255, 255, 255, 0.05)
+  );
+  transition: 0.4s linear;
+  transition-property: width, background-color;
+}
+
+.node-bar {
+  width: 85%;
+  background-color: #F85C70 ;
+  animation: nodeAnimation 6s;
+}
+
+@keyframes nodeAnimation {
+  0% {
+    width: 0%;
+    background-color: #F85C70;
+  }
+  100% {
+    width: 85%;
+    background-color: #ef476f;
+  }
+}
+
+.angular {
+  padding: 4px;
+  border-radius: 30px;
+  background: rgba(176, 174, 174, 0.25);
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25),
+    0 1px rgba(255, 255, 255, 0.08);
+}
+
+.angular-bar {
+  height: 9px;
+  border-radius: 30px;
+  background-image: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0.3),
+    rgba(255, 255, 255, 0.05)
+  );
+  transition: 0.4s linear;
+  transition-property: width, background-color;
+}
+
+.angular-bar {
+  width: 90%;
+  background-color: #F85C70 ;
+  animation: angularAnimation 6s;
+}
+@keyframes angularAnimation {
+  0% {
+    width: 0%;
+    background-color: #F85C70;
+  }
+  100% {
+    width: 90%;
+    background-color: #ef476f;
+  }
+}
+
+.php {
+  padding: 4px;
+  border-radius: 30px;
+  background: rgba(176, 174, 174, 0.25);
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25),
+    0 1px rgba(255, 255, 255, 0.08);
+}
+
+.php-bar {
+  height: 9px;
+  border-radius: 30px;
+  background-image: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0.3),
+    rgba(255, 255, 255, 0.05)
+  );
+  transition: 0.4s linear;
+  transition-property: width, background-color;
+}
+
+.php-bar {
+  width: 85%;
+  background-color: #F85C70 ;
+  animation: phpAnimation 6s;
+}
+
+@keyframes phpAnimation {
+  0% {
+    width: 0%;
+    background-color: #F85C70;
+  }
+  100% {
+    width: 85%;
+    background-color: #ef476f;
+  }
+}
+.sql {
+  padding: 4px;
+  border-radius: 30px;
+  background: rgba(176, 174, 174, 0.25);
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25),
+    0 1px rgba(255, 255, 255, 0.08);
+}
+
+.sql-bar {
+  height: 9px;
+  border-radius: 30px;
+  background-image: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0.3),
+    rgba(255, 255, 255, 0.05)
+  );
+  transition: 0.4s linear;
+  transition-property: width, background-color;
+}
+
+.sql-bar {
+  width: 93%;
+  background-color: #F85C70 ;
+  animation: sqlAnimation 6s;
+}
+
+@keyframes sqlAnimation {
+  0% {
+    width: 0%;
+    background-color: #F85C70;
+  }
+  100% {
+    width: 93%;
+    background-color: #ef476f;
+  }
+}
+.tamil {
+  padding: 4px;
+  border-radius: 30px;
+  background: rgba(176, 174, 174, 0.25);
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25),
+    0 1px rgba(255, 255, 255, 0.08);
+}
+
+.tamil-bar {
+  height: 9px;
+  border-radius: 30px;
+  background-image: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0.3),
+    rgba(255, 255, 255, 0.05)
+  );
+  transition: 0.4s linear;
+  transition-property: width, background-color;
+}
+
+.tamil-bar {
+  width: 100%;
+  background-color: #F85C70 ;
+  animation: tamilAnimation 6s;
+}
+
+@keyframes tamilAnimation {
+  0% {
+    width: 0%;
+    background-color: #F85C70;
+  }
+  100% {
+    width: 100%;
+    background-color: #ef476f;
+  }
+}
+.english {
+  padding: 4px;
+  border-radius: 30px;
+  background: rgba(176, 174, 174, 0.25);
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25),
+    0 1px rgba(255, 255, 255, 0.08);
+}
+
+.english-bar {
+  height: 9px;
+  border-radius: 30px;
+  background-image: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0.3),
+    rgba(255, 255, 255, 0.05)
+  );
+  transition: 0.4s linear;
+  transition-property: width, background-color;
+}
+
+.english-bar {
+  width: 80%;
+  background-color: #F85C70 ;
+  animation: englishAnimation 6s;
+}
+
+@keyframes englishAnimation {
+  0% {
+    width: 0%;
+    background-color: #F85C70;
+  }
+  100% {
+    width: 80%;
+    background-color: #ef476f;
+  }
+}
+.malayalam {
+  padding: 4px;
+  border-radius: 30px;
+  background: rgba(176, 174, 174, 0.25);
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25),
+    0 1px rgba(255, 255, 255, 0.08);
+}
+
+.malayalam-bar {
+  height: 9px;
+  border-radius: 30px;
+  background-image: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0.3),
+    rgba(255, 255, 255, 0.05)
+  );
+  transition: 0.4s linear;
+  transition-property: width, background-color;
+}
+
+.malayalam-bar {
+  width: 90%;
+  background-color: #F85C70 ;
+  animation: malayalamAnimation 6s;
+}
+
+@keyframes malayalamAnimation {
+  0% {
+    width: 0%;
+    background-color: #F85C70;
+  }
+  100% {
+    width: 90%;
+    background-color: #ef476f;
+  }
+}
+.hindi {
+  padding: 4px;
+  border-radius: 30px;
+  background: rgba(176, 174, 174, 0.25);
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25),
+    0 1px rgba(255, 255, 255, 0.08);
+}
+
+.hindi-bar {
+  height: 9px;
+  border-radius: 30px;
+  background-image: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0.3),
+    rgba(255, 255, 255, 0.05)
+  );
+  transition: 0.4s linear;
+  transition-property: width, background-color;
+}
+
+.hindi-bar {
+  width: 85%;
+  background-color: #F85C70 ;
+  animation: hindiAnimation 6s;
+}
+
+@keyframes hindiAnimation {
+  0% {
+    width: 0%;
+    background-color: #F85C70;
+  }
+  100% {
+    width: 85%;
+    background-color: #ef476f;
+  }
+}
 :root {
   --blue: #79A9F5;
   --indigo: #C45F90;
@@ -12457,8 +12970,8 @@ p {
   }
 }
 
-.custom-map {
-  height: 400px;
+.map {
+  margin-top: -80px;
 }
 
 pre {
