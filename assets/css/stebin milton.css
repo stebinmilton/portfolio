@@ -50,7 +50,7 @@
 }
 
 .html-bar {
-  width: 90%;
+  width: 100%;
   background-color: #F85C70 ;
   animation: htmlAnimation 6s;
 }
@@ -61,7 +61,7 @@
     background-color: #F85C70;
   }
   100% {
-    width: 90%;
+    width: 100%;
     background-color: #ef476f;
   }
 }
@@ -87,7 +87,7 @@
 }
 
 .boostrap-bar {
-  width: 80%;
+  width: 100%;
   background-color: #F85C70 ;
   animation: boostrapAnimation 6s;
 }
@@ -98,7 +98,7 @@
     background-color: #F85C70;
   }
    100% {
-    width: 80%;
+    width: 100%;
     background-color: #ef476f;
   }
 }  
@@ -235,7 +235,7 @@
 }
 
 .react-bar {
-  width: 70%;
+  width: 95%;
   background-color: #F85C70 ;
   animation: reactAnimation 6s;
 }
@@ -246,7 +246,7 @@
     background-color: #F85C70;
   }
   100% {
-    width: 70%;
+    width: 95%;
     background-color: #ef476f;
   }
 }
